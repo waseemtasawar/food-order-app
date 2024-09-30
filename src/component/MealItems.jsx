@@ -1,5 +1,5 @@
 import React from "react";
-import { currencyFormater } from "../utils/formatting";
+import currencyFormater from "../utils/formatting";
 import Button from "./UI/Button";
 import { useContext } from "react";
 import CartContext from "../store/CartContext";
